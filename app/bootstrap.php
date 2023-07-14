@@ -12,7 +12,9 @@ require_once 'core' . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'co
 // Подключаем автолоадер
 require_once dirname(__DIR__, 1) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
-// echo 'Bootstrap <br>';
+// подключаем Twig
 
-// обращаемся к пространству имён из Route и вызываем класс start
+
+
+// обращаемся к пространству имён из Route метод start мз класса Route
 core\Route::start();
